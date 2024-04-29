@@ -1,0 +1,232 @@
+/*Poznámka v css*/
+body, textarea, input, select {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*p, h2, h3, ul, li */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+header .container {
+    width: 80%;  
+}
+img, iframe { 
+    vertical-align: top;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a,i,input {
+    transition: all 0.3s;
+}
+h1 {
+    font-size: 50px;
+    padding: 50px 0 80px;
+    text-transform: uppercase;
+}
+p {
+    line-height: 1.6;
+}
+
+.mob:hover {
+    color: #b30000;
+    text-decoration: underline;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+}
+
+.socIkony {
+    font-size: 22px;
+}
+
+.fa-facebook:hover {
+    color: #1877F2;
+}
+
+.fa-x-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-instagram:hover {
+    color: #E4405F;
+}
+.logo {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: center;
+    gap: 80px;
+    padding: 30px 0;
+    ;
+}
+.menu ul li a {
+    padding-bottom: 10px;
+
+}
+.menu ul li a:hover {
+    border-bottom: 2px solid #b30000;
+} 
+
+/*@media screen  and (max-width:650px) {
+    .menu ul {
+      gap: 20px;
+    }
+    @media screen  and (max-width:400px) {
+     .menu ul { 
+      flex-direction: column;
+     }
+  }*/
+header img {
+    width: 100%;
+    height: auto;
+}
+
+/* section */
+.main {
+    padding-bottom: 120px;
+}
+.main h2 {
+    color: #a57a5b;
+    padding: 35px;
+}
+
+/* footer*/
+
+.pata {
+    background: #ccc;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer .logo {
+    font-size: 24px;
+}
+
+.pataInfo {
+    padding: 30px 0;
+}
+
+.pataInfo p i,
+.kontaktFlex p i {
+    margin-right: 15px;
+}
+
+.pataInfo p a:hover,
+.kontaktBox p a:hover {
+    color:#b30000;
+    text-decoration: underline;
+}
+.pataInfo p span,
+.kontaktBox p span {
+    font-weight: 700;
+    color: #b30000;
+}
+.pata .socIkony {
+    font-size: 35px;
+}
+.copy {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+/*kontakt*/
+.kontakt {
+    padding: 100px 0;
+}
+.kontaktBox {
+    background: #ccc;
+    padding: 0 30px 30px;
+}
+.kontaktFlex {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-bottom: 50px;
+}
+.karty p i {
+    font-size: 50px;
+}
+.mapa {
+    margin: 10px;
+    width: 200;
+}
+.kontakt iframe {
+    width: 100%;
+    margin: 10px 0;
+}
+.kontaktBox h2 {
+    padding: 30px 0;
+}
+.kontaktBox input[type="text"],
+.kontaktBox input[type="email"],
+.kontaktBox input[type="date"],
+.kontaktBox select,
+.kontaktBox textarea {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 auto 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.kontaktBox textarea {
+    height: 120px;
+}
+.kontaktBox input[type="submit"] {
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 2px solid #b30000;
+    color: #b30000;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.kontaktBox input[type="submit"]:hover {
+    color:#fff;
+    background: #b30000;
+    
+}
+
+/*Galerie*/
+.foto {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+}
+.foto a {
+    width: 24%;
+}
+.foto img {
+    width: 100%;
+    height: auto;
+}
